@@ -1,17 +1,20 @@
+/* Cambiando el color del texto y el fondo */
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f7f9fa;
-    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Eligiendo la fuente */
+    background-color: #f7f9fa; /* Fondo de color */
+    color: #222; /* Color del texto */
     margin: 0;
     padding: 0;
 }
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 40px auto; /* margin: separa la caja del resto */
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    padding: 40px 32px 32px 32px;
+    padding: 40px 32px 32px 32px; /* padding: espacio interno */
+    border: 3px solid #0077b6; /* border: grosor, estilo y color */
+    box-sizing: border-box; /* Mantiene el tamaño total de la caja */
 }
 header {
     border-bottom: 2px solid #e0e0e0;
@@ -19,9 +22,14 @@ header {
     padding-bottom: 12px;
 }
 h1 {
-    color: #2c3e50;
+    color: #2c3e50; /* Cambia el color del texto */
     margin: 0 0 8px 0;
-    font-size: 2.2em;
+    font-size: 2.2em; /* Cambia el tamaño de la fuente */
+    font-family: 'Georgia', serif; /* Cambia la fuente solo para h1 */
+    text-align: center; /* Centra el texto */
+    background-color: #e0f7fa; /* Fondo solo para h1 */
+    padding: 12px 0; /* Espacio interno arriba y abajo */
+    border-bottom: 4px dashed #0077b6; /* Borde decorativo abajo */
 }
 header p {
     font-size: 1.1em;
@@ -30,6 +38,23 @@ header p {
 }
 section {
     margin-bottom: 28px;
+    padding: 16px; /* Espacio interno en cada sección */
+    background-color: #f0f8ff; /* Fondo suave para distinguir secciones */
+    border: 1px solid #b2ebf2; /* Borde sutil */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+/* Ejemplo de caja personalizada para explicar box-sizing */
+.box-ejemplo {
+    width: 200px;
+    padding: 10px;
+    border: 5px solid #ff9800;
+    margin: 20px auto;
+    background: #fff3e0;
+    color: #e65100;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    text-align: center;
 }
 h2 {
     color: #0077b6;
