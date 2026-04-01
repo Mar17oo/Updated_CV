@@ -17,6 +17,10 @@ body {
     box-sizing: border-box; /* Mantiene el tamaño total de la caja */
 }
 header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
     border-bottom: 2px solid #e0e0e0;
     margin-bottom: 24px;
     padding-bottom: 12px;
@@ -64,6 +68,35 @@ header p {
 .btn-contacto-estatico:hover {
     background: #bae6fd;
     text-decoration: none;
+}
+
+.btn-contacto-fijo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    background: #0077b6;
+    color: #ffffff;
+    border: 2px solid #005f91;
+    border-radius: 999px;
+    padding: 11px 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+.btn-contacto-fijo:hover {
+    background: #0096c7;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .btn-contacto-fijo {
+        right: 12px;
+        bottom: 12px;
+        padding: 10px 13px;
+        font-size: 0.92rem;
+    }
 }
 section {
     margin-bottom: 28px;
