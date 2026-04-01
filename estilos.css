@@ -36,6 +36,35 @@ header p {
     color: #555;
     margin: 0;
 }
+
+.contacto-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.02em;
+    color: #555;
+    margin: 0;
+}
+
+.btn-contacto-estatico {
+    position: static;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #0077b6;
+    background: #e0f2fe;
+    color: #075985;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-contacto-estatico:hover {
+    background: #bae6fd;
+    text-decoration: none;
+}
 section {
     margin-bottom: 28px;
     padding: 16px; /* Espacio interno en cada sección */
