@@ -83,3 +83,44 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Demo de herencia en CSS */
+.herencia-demo {
+    color: #1e3a8a;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    line-height: 1.7;
+    background-color: #eef2ff;
+}
+
+.card-herencia {
+    margin-top: 12px;
+    padding: 14px;
+    border: 2px solid currentColor;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.card-herencia h3,
+.card-herencia p,
+.card-herencia a {
+    color: inherit;
+}
+
+.btn-heredado {
+    font-family: inherit;
+    color: inherit;
+    background: #dbeafe;
+    border: 1px solid #93c5fd;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-heredado:hover {
+    background: #bfdbfe;
+}
+
+.nota-herencia {
+    font-size: 0.95em;
+    margin-top: 12px;
+}
