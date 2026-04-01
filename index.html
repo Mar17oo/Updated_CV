@@ -121,6 +121,47 @@
                 Nota: se usa Google Fonts con display=swap para mejor rendimiento visual.
             </p>
         </section>
+
+        <section class="lab-css">
+            <h2>Laboratorio CSS (Posicionamiento y Flexbox)</h2>
+
+            <details>
+                <summary>Ejemplo 1: position static, relative y absolute</summary>
+                <p class="demo-explicacion">
+                    static: sigue el flujo normal. relative: se mueve desde su posicion original.
+                    absolute: sale del flujo y se posiciona respecto al contenedor relativo.
+                </p>
+
+                <div class="demo-static">Caja static (position: static)</div>
+
+                <div class="demo-relative-wrap">
+                    <div class="demo-relative">Caja relative (top y left)</div>
+                    <div class="demo-absolute">Caja absolute</div>
+                </div>
+            </details>
+
+            <details>
+                <summary>Ejemplo 2: Introduccion a Flexbox</summary>
+                <p class="demo-explicacion">
+                    Contenedor con display: flex, justify-content y align-items para distribuir tarjetas.
+                </p>
+
+                <div class="flex-demo">
+                    <article class="flex-item">
+                        <h3>Perfil</h3>
+                        <p>Elemento 1 en layout flexible.</p>
+                    </article>
+                    <article class="flex-item destacado">
+                        <h3>Skills</h3>
+                        <p>Elemento 2 con crecimiento adicional.</p>
+                    </article>
+                    <article class="flex-item">
+                        <h3>Contacto</h3>
+                        <p>Elemento 3 en la misma fila.</p>
+                    </article>
+                </div>
+            </details>
+        </section>
     </div>
 </body>
 </html>
