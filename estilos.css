@@ -44,7 +44,22 @@ section {
     border-radius: 8px;
     box-sizing: border-box;
 }
-/* Ejemplo de caja personalizada para explicar box-sizing */
+/*
+Documentacion interna (no visible en deploy): box-sizing
+
+box-sizing: border-box
+width: 200px;
+padding: 10px;
+border: 5px solid #ff9800;
+
+El ancho total de esta caja es 200px.
+
+Que hace box-sizing: border-box?
+El ancho y la altura incluyen el contenido, el padding y el borde.
+Asi, el tamano total de la caja es exactamente el que defines en width y height.
+No necesitas sumar el padding ni el borde al ancho total.
+*/
+/* Clase conservada para referencia tecnica, actualmente no se renderiza en HTML */
 .box-ejemplo {
     width: 200px;
     padding: 10px;
