@@ -99,170 +99,22 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Demo de herencia en CSS */
-.herencia-demo {
-    color: #1e3a8a;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    line-height: 1.7;
-    background-color: #eef2ff;
-}
+/*
+Documentacion interna (no visible en deploy):
 
-.card-herencia {
-    margin-top: 12px;
-    padding: 14px;
-    border: 2px solid currentColor;
-    border-radius: 8px;
-    background: #ffffff;
-}
+1) Herencia en CSS (ejercicio)
+- Se probo herencia de color, font-family y line-height en un contenedor.
+- Se probo color: inherit y font-family: inherit en hijos.
+- Nota del ejercicio: margin, padding y border no se heredan por defecto.
 
-.card-herencia h3,
-.card-herencia p,
-.card-herencia a {
-    color: inherit;
-}
+2) Fuentes en CSS (ejercicio)
+- Se probo font-family con fuentes de respaldo (sans-serif, serif, monospace).
+- Se probo font-size, font-weight, font-style, line-height, letter-spacing y text-transform.
+- Se utilizo Google Fonts con display=swap.
 
-.btn-heredado {
-    font-family: inherit;
-    color: inherit;
-    background: #dbeafe;
-    border: 1px solid #93c5fd;
-    padding: 8px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-}
+3) Posicionamiento y Flexbox (ejercicio)
+- Posicionamiento: static, relative y absolute.
+- Flexbox: display:flex, justify-content, align-items, gap y flex-wrap.
 
-.btn-heredado:hover {
-    background: #bfdbfe;
-}
-
-.nota-herencia {
-    font-size: 0.95em;
-    margin-top: 12px;
-}
-
-/* Demo de fuentes en CSS */
-.fuentes-demo {
-    background: #f8fafc;
-}
-
-.texto-base {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.7;
-    letter-spacing: 0.015em;
-}
-
-.texto-fuerte {
-    font-family: 'Roboto Slab', Georgia, serif;
-    font-size: 1.05rem;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.texto-mayus {
-    font-family: 'Montserrat', Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.95rem;
-    color: #0f766e;
-}
-
-.texto-mono {
-    font-family: 'Fira Mono', 'Courier New', monospace;
-    font-size: 0.95rem;
-    background: #e2e8f0;
-    border-radius: 6px;
-    padding: 8px 10px;
-}
-
-.nota-fuentes {
-    font-size: 0.92rem;
-    color: #475569;
-}
-
-/* Laboratorio CSS documentado y colapsable */
-.lab-css {
-    background: #f8fafc;
-}
-
-.lab-css details {
-    background: #ffffff;
-    border: 1px solid #dbeafe;
-    border-radius: 8px;
-    padding: 12px;
-    margin-bottom: 12px;
-}
-
-.lab-css summary {
-    font-weight: 700;
-    cursor: pointer;
-    color: #1e3a8a;
-}
-
-.demo-explicacion {
-    margin: 10px 0;
-    color: #334155;
-}
-
-/* Posicionamiento */
-.demo-static {
-    position: static;
-    background: #fef3c7;
-    border: 1px solid #f59e0b;
-    border-radius: 6px;
-    padding: 8px;
-    margin-bottom: 10px;
-}
-
-.demo-relative-wrap {
-    position: relative;
-    height: 140px;
-    border: 1px dashed #94a3b8;
-    border-radius: 6px;
-    background: #f8fafc;
-    padding: 10px;
-}
-
-.demo-relative {
-    position: relative;
-    top: 12px;
-    left: 16px;
-    width: fit-content;
-    background: #dbeafe;
-    border: 1px solid #60a5fa;
-    border-radius: 6px;
-    padding: 6px 10px;
-}
-
-.demo-absolute {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #fee2e2;
-    border: 1px solid #f87171;
-    border-radius: 6px;
-    padding: 6px 10px;
-}
-
-/* Flexbox */
-.flex-demo {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.flex-item {
-    flex: 1 1 180px;
-    background: #ecfeff;
-    border: 1px solid #67e8f9;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.flex-item.destacado {
-    flex: 1.4 1 220px;
-    background: #dcfce7;
-    border-color: #4ade80;
-}
+Estas demos se retiraron del HTML para mantener el CV limpio en produccion.
+*/
