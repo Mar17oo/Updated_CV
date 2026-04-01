@@ -1,6 +1,6 @@
 /* Cambiando el color del texto y el fondo */
 body {
-    font-family: 'Segoe UI', Arial, sans-serif; /* Eligiendo la fuente */
+    font-family: 'Montserrat', Arial, sans-serif; /* Eligiendo la fuente */
     background-color: #f7f9fa; /* Fondo de color */
     color: #222; /* Color del texto */
     margin: 0;
@@ -123,4 +123,44 @@ a:hover {
 .nota-herencia {
     font-size: 0.95em;
     margin-top: 12px;
+}
+
+/* Demo de fuentes en CSS */
+.fuentes-demo {
+    background: #f8fafc;
+}
+
+.texto-base {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    letter-spacing: 0.015em;
+}
+
+.texto-fuerte {
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.texto-mayus {
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.95rem;
+    color: #0f766e;
+}
+
+.texto-mono {
+    font-family: 'Fira Mono', 'Courier New', monospace;
+    font-size: 0.95rem;
+    background: #e2e8f0;
+    border-radius: 6px;
+    padding: 8px 10px;
+}
+
+.nota-fuentes {
+    font-size: 0.92rem;
+    color: #475569;
 }
