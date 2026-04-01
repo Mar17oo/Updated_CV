@@ -106,6 +106,54 @@ section {
     border-radius: 8px;
     box-sizing: border-box;
 }
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.skill-card {
+    flex: 1 1 240px;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    background: #f8fbff;
+    padding: 12px;
+}
+
+.skill-card h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #0f4c81;
+    font-size: 1.02rem;
+}
+
+.skill-card p {
+    margin: 0;
+    line-height: 1.55;
+}
+
+.languages-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.language-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 12px;
+    border-radius: 999px;
+    border: 1px solid #7dd3fc;
+    background: #ecfeff;
+    color: #0c4a6e;
+    font-weight: 600;
+}
 /*
 Documentacion interna (no visible en deploy): box-sizing
 
